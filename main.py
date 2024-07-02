@@ -654,7 +654,7 @@ if logged_in:
                     print("4. Aktualizuj pensjonariusza na liście")
                     print("5. Wyświetl lokalizacje miejsca zamieszkania pensjonariuszy")
                     print("6. Wyświetl lokalizacje miejsca zamieszkania pensjonariuszy ze wszystkich domów opieki")
-                    dzialanie = input("Jakie działanie chcesz podjąć?: ")
+                    dzialanie = int(input("Jakie działanie chcesz podjąć?: "))
                     if dzialanie == '0':
                         break
                     elif dzialanie == '1':
